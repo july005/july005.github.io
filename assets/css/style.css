@@ -1,10 +1,3 @@
-/*
-    Author: TrendyTheme
-    Template: I AM X
-    Version: 1.0
-    URL: http://demo.trendytheme.net/iamx/html
-*/
-
 
 /*
 ====================================
@@ -30,10 +23,9 @@
 
 
 body{
-    font-family: 'Roboto', sans-serif;
-    line-height: 28px;
-    font-weight: 300;
-    font-size: 14px;
+    font-family: 'Arvo', serif;    
+    font-size: 16px;
+    font-weight: 400;
     color:#282828;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
@@ -48,7 +40,7 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: #E44424;
 }
 a,
 a > * {
@@ -102,9 +94,9 @@ a,
 /* === Typography === */
 
 h1, h2, h3, h4, h5, h6{
+    font-family: 'Arvo', serif;
     font-weight: 700;
     margin:0;
-    text-transform: uppercase;
 }
 
 h1 {
@@ -134,6 +126,9 @@ h6 {
     font-size     : 12px;
 }
 
+p {
+    font-family: 'Arvo', serif;
+}
 
 
 /* === FORM STYLE === */
@@ -146,7 +141,7 @@ h6 {
 }
 
 .form-control:focus {
-    border-color: #68c3a3;
+    border-color: #E44424;
     box-shadow: none;
 }
 
@@ -172,7 +167,7 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
-    background-color:#68c3a3;
+    background-color:#E44424;
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -189,7 +184,7 @@ h6 {
 
 /*btn-info*/
 .btn-info{
-    background-color:#52b3d9;
+    background-color:#67BCDB;
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -200,8 +195,8 @@ h6 {
 .btn-info.active, 
 .open>.dropdown-toggle.btn-info {
     color: #fff;
-    background-color: #4aa0c2;
-    border-color: #4aa0c2;
+    background-color: #7FFFD4;
+    border-color: #7FFFD4;
 }
 
 /*btn-default*/
@@ -215,7 +210,7 @@ h6 {
 .btn-default.focus, 
 .btn-default:active, 
 .btn-default.active{
-    color: #68c3a3;
+    color: #282828;
     background-color: #fff;
     border-color: #fff;
 }
@@ -261,7 +256,7 @@ ul.list-check li{
 ul.list-check li::before {
     content: "\f00c";
     font-family: fontawesome;
-    color: #68c3a3;
+    color: #E44424;
     margin-right: 10px;
 }
 
@@ -316,7 +311,7 @@ ul.list-check li::before {
 }
 #home:before {
 	content: "";
-	background-color: rgba(26, 30, 35, 0.85);
+	background-color: rgba(225,250,250,0.25);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -326,10 +321,10 @@ ul.list-check li::before {
 
 .intro {
 	position: absolute;
-	width: 100%;
+	width: 100%; 
 	top: 50%;
 	left: 0;
-	text-align: center;
+	text-align: left;
 	-webkit-transform: translate(0%, -50%);
 	   -moz-transform: translate(0%, -50%);
 		-ms-transform: translate(0%, -50%);
@@ -339,17 +334,30 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-size: 60px;
+	font-family: 'Arvo', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    text-align: right;
+    line-height: 26.4px;
 	line-height: 80px;
 	margin-bottom: 16px;
-	color: #52b3d9;
+	color: #f9d77e;
 }
 .intro h1 span{
-	color: #68c3a3;
+	color: #E44424;
 }
 .intro p{
 	color: #f7f7f7;
-	margin-bottom: 40px;
+    text-align: left;
+    margin-bottom: 35px;
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 125%;
 }
 
 .intro-sub {
@@ -357,9 +365,9 @@ ul.list-check li::before {
 	font-size: 24px;
 	line-height: 32px;
 	font-weight: 700;
-	text-transform: uppercase;
-	display: block;
 	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* 
@@ -367,6 +375,8 @@ SOCIAL ICON
 -------------------------------------------*/
 .social-icons {
     margin-top: 20px;
+    text-align: center;
+
 }
 .social-icons a i{
     position: relative;
@@ -405,7 +415,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #68c3a3;
+    background: white;
     border: 1px solid transparent;
     z-index: 0;
 }
@@ -436,7 +446,7 @@ SOCIAL ICON
     border-radius: 0;
     margin: 0;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Arvo', serif;
 }
 
 
@@ -456,7 +466,7 @@ SOCIAL ICON
     visibility: hidden;
     opacity:0;
     border: 1px solid #ddd;
-    border-top: 2px solid #68c3a3;
+    border-top: 2px solid #E44424;
     border-radius: 0;
     border-bottom: 3px double #ddd;
     background-color: #FFFFFF;
@@ -507,7 +517,7 @@ SOCIAL ICON
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #68c3a3;
+    color: #E44424;
 }
 
 .navbar-custom .navbar-brand {
@@ -769,7 +779,7 @@ Resume Timeline
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #2c3e50;
+    color: #67BCDB;
     top: 0;
     float: left;
 }
@@ -857,8 +867,8 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
-    color: #fff;
+    background: #f9d77e;
+    color: #282828;
 }
 
 .timeline>li .timeline-panel::before,
@@ -878,7 +888,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #E44424;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -890,7 +900,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #E44424;
     border-left: 0;
 }
 
@@ -912,7 +922,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #E44424;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -925,7 +935,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #E44424;
     border-left: 0;
 }
 
@@ -946,6 +956,7 @@ Resume Timeline
 
 /* === Skill Section === */
 .skills-section {
+    font-family: 'Arvo', serif;
     background-color: #1a1e23;
     color: #fff;   
 }
@@ -954,13 +965,16 @@ Resume Timeline
     margin-bottom: 110px;  
 }
 .skills-section .section-title h2{
+    font-family: 'Arvo', serif;
     color: #fff;
 }
 .skill-title {
+    font-family: 'Arvo', serif;
     width: 25%;
     float: left;
 }
 .skill-title h3{
+    font-family: 'Arvo', serif;
     font-size: 18px;
     font-weight: 400;
     margin-top: -6px;
@@ -984,7 +998,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: #E44424;
 }
 .progress-bar span{
     position: absolute;
@@ -1079,8 +1093,6 @@ Resume Timeline
    border: 1px solid #eee;
    border-bottom: 3px double #eee;
 }
-
-
 .portfolio {
     position: relative;
     overflow: hidden;
@@ -1092,10 +1104,8 @@ Resume Timeline
     margin: 0 0 35px;
     text-align: center;
 }
-
-
 #filter li a {
-    color: #68c3a3;
+    color: #E44424;
     display: block;
     text-transform: uppercase;
     padding: 0 15px;
@@ -1105,7 +1115,7 @@ Resume Timeline
 #filter li a.active,
 #filter li a:hover {
     position: relative;
-    background: #68c3a3;
+    background: #E44424;
     color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
@@ -1162,7 +1172,7 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #68c3a3;
+    color: #E44424;
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
@@ -1177,7 +1187,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #68c3a3;
+    border: 1px solid #E44424;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1187,14 +1197,14 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: #E44424;
 }
 
 .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #68c3a3;
+    background-color: #E44424;
     color: #fff;
     height: 45px;
     width: 100%;
@@ -1304,7 +1314,7 @@ Resume Timeline
     top: -10px;
     width: 40px;
     height: 40px;
-    background-color: #68c3a3;
+    background-color: #E44424;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1356,7 +1366,7 @@ Resume Timeline
     color: #282828;
 }
 .entry-title a:hover{
-    color: #68c3a3;
+    color: #E44424;
 }
 .entry-meta {
     color: #afafaf;
@@ -1373,7 +1383,7 @@ Resume Timeline
     font-weight: 400;
 }
 .entry-meta ul li a:hover{
-    color: #68c3a3;
+    color: #E44424;
 }
 
 .blog-more {
@@ -1415,17 +1425,14 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #E44424;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
 }
 .hire-section-bg {
     padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
+
 }
 
 .hire-section h2 {
@@ -1435,6 +1442,7 @@ Icon for all respective meta
 
 .hire-section .btn {
     padding: 9px 54px;
+    background-color: #E44424;
 }
 
 
@@ -1515,7 +1523,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #E44424;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1535,7 +1543,7 @@ Icon for all respective meta
  * Mouse animate icon
 /* ---------------------------------------------- */
 
-.mouse-icon {
+.erin-icon {
 	position: absolute;
 	left: 50%;
 	bottom: 40px;
@@ -1548,19 +1556,9 @@ Icon for all respective meta
 	z-index: 10;
 }
 
-.mouse-icon .wheel {
-    -webkit-animation-name: drop;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 0s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
+.erin-icon .wheel {
     animation-name: drop;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
+
 }
 
 .mouse-icon .wheel {
@@ -1775,7 +1773,7 @@ Icon for all respective meta
 }
 
 .personal-info h1 span{
-    color:#68c3a3;
+    color:#E44424;
 }
 .personal-info p {
     margin-bottom: 40px;
