@@ -177,9 +177,9 @@
 
 	
 	.intro p {
-		font-size: 25px;
+		font-size: 23px;
 		line-height: 20px;
-		font-weight: bold;
+		font-weight: normal;
 		float: right;
 		position: relative;
 		bottom: 40px;
@@ -346,6 +346,7 @@
 		bottom: 40px;
 	}
 
+
 	.navbar-custom .navbar-brand{
 		padding: 10px 15px;
 	}
@@ -428,6 +429,24 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width : 992px) and (max-width : 1199px) {
+
+		.intro h1 {
+		font-size: 50px;
+		line-height: 50px;
+		float: left;
+		position: relative;
+		margin-bottom: 90px;
+	}
+
+	
+	.intro p {
+		font-size: 35px;
+		line-height: 35px;
+		font-weight: normal;
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
 
 	.portfolio-item{
 		min-height: 150px;
