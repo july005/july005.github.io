@@ -1,13 +1,13 @@
 /* Extra small devices (phones, less than 768px) */
 
-
 @media (max-width : 766px) {
+
 	.intro h1 {
 		font-size: 20px;
 		line-height: 20px;
 		float: left;
 		position: relative;
-		bottom: 40px;
+		margin-bottom: 60px;
 	}
 
 	.intro p {
@@ -165,11 +165,26 @@
 
 /* Landscape Mobile */
 @media only screen and (min-width : 480px) and (max-width : 767px) {
-	.intro h1 {
-		font-size: 60px;
-		line-height: 80px;
-	}
 	
+	.intro h1 {
+		font-size: 30px;
+		line-height: 20px;
+		float: left;
+		position: relative;
+		margin-bottom: 60px;
+
+	}
+
+	
+	.intro p {
+		font-size: 25px;
+		line-height: 20px;
+		font-weight: bold;
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
+
 	.social-icons ul{
 		margin-left: -5px;
 	}
@@ -312,6 +327,25 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width : 768px) and (max-width : 991px) {
+
+	.intro h1 {
+		font-size: 50px;
+		line-height: 20px;
+		float: left;
+		position: relative;
+		margin-bottom: 90px;
+	}
+
+	
+	.intro p {
+		font-size: 35px;
+		line-height: 20px;
+		font-weight: normal;
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
+
 	.navbar-custom .navbar-brand{
 		padding: 10px 15px;
 	}
