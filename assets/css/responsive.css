@@ -1,17 +1,20 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 766px) {
 	.intro h1 {
-		font-size: 17px;
+		font-size: 20px;
 		line-height: 20px;
 		float: left;
+		position: relative;
+		bottom: 40px;
 	}
 
 	.intro p {
-		font-size: 15px;
+		font-size: 17px;
 		line-height: 20px;
 		font-weight: bold;
 		float: right;
-		padding-bottom: 20px;
+		position: relative;
+		bottom: 40px;
 	}
 
 	.social-icons ul{
