@@ -1,5 +1,5 @@
 /* Extra small devices (phones, less than 768px) */
-
+/* 1 */
 @media (max-width : 766px) {
 
 	.intro h1 {
@@ -13,7 +13,6 @@
 	.intro p {
 		font-size: 17px;
 		line-height: 20px;
-		font-weight: bold;
 		float: right;
 		position: relative;
 		bottom: 40px;
@@ -167,6 +166,7 @@
 }
 
 /* Landscape Mobile */
+/* 2 */
 @media only screen and (min-width : 480px) and (max-width : 767px) {
 	
 	.intro h1 {
@@ -178,7 +178,6 @@
 
 	}
 
-	
 	.intro p {
 		font-size: 23px;
 		line-height: 23px;
@@ -190,14 +189,20 @@
 
 	.social-icons ul{
 		margin-left: -5px;
+	  position: relative;
+		margin-bottom: 600px;
 	}
 
 	.social-icons li{
 		padding:0 5px;
+		position: relative;
+		margin-bottom: 600px;
 	}
 
 	.social-icons a i{
 		margin:0 7px;
+		position: relative;
+		margin-bottom: 600px;
 	}
 
 	.mouse-icon{
@@ -329,6 +334,7 @@
 
 
 /* Small devices (tablets, 768px and up) */
+/* 3 */
 @media (min-width : 768px) and (max-width : 991px) {
 
 	.intro h1 {
@@ -341,8 +347,8 @@
 
 	
 	.intro p {
-		font-size: 35px;
-		line-height: 35px;
+		font-size: 23px;
+		line-height: 23px;
 		font-weight: normal;
 		float: right;
 		position: relative;
@@ -431,9 +437,10 @@
 
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width : 992px) and (max-width : 1199px) {
+/* 4 */
+@media (min-width : 992px) and (max-width : 1279px) {
 
-		.intro h1 {
+	.intro h1 {
 		font-size: 50px;
 		line-height: 50px;
 		float: left;
@@ -443,8 +450,8 @@
 
 	
 	.intro p {
-		font-size: 35px;
-		line-height: 35px;
+		font-size: 27px;
+		line-height: 27px;
 		font-weight: normal;
 		float: right;
 		position: relative;
@@ -462,17 +469,60 @@
 
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width : 1200px) and (max-width : 1279px) {
-
+/*@media (min-width : 1200px) and (max-width : 1279px) {
+	.intro h1 {
+		font-size: 63px;
+		line-height: 63px;
+		float: left;
+		position: relative;
+		margin-bottom: 60px;
+	}
+	
+	.intro p {
+		font-size: 27px;
+		line-height: 27px;
+		font-weight: normal;
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
 }
 
 /* Large devices (large desktops, 1280px and up) */
+/* 5 */
 @media screen and (min-width:1280px) and (max-width:1599px) {
+	.intro h1 {
+		font-size: 53px;
+		line-height: 53px;
+		float: left;
+		position: relative;
+		margin-bottom: 60px;
+	}
 	
+	.intro p {
+		font-size: 27px;
+		line-height: 27px;
+		font-weight: normal;
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
 }
 
 /* Extra Large devices (large desktops, 1600px and up) */
-@media screen and (min-width:1600px) and (max-width:1920px) {
+/* 6 */
+@media screen and (min-width:1600px) {
+	.intro h1 {
+		font-size: 53px;
+		line-height: 53px;
+	}
+	
+	.intro p {
+		font-size: 27px;
+		line-height: 27px;
+		font-weight: normal;
+
+	}
 	.personal-info{
 		padding-right:180px;
 	}
