@@ -107,15 +107,18 @@ h1 {
 h2 {
     font-size: 30px;
     line-height: 30px;
+    font-family: 'Offside', cursive;
 }
 
 h3 {
     font-size: 24px;
     line-height: 24px;
+    font-family: 'Offside', cursive;
 }
 
 h4 {
     font-size: 18px;
+    font-family: 'Offside', cursive;
 }
 
 h5 {
@@ -302,7 +305,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home2.jpg) no-repeat center center;
+	background: url(../images/outerspace.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -312,7 +315,6 @@ ul.list-check li::before {
 }
 #home:before {
 	content: "";
-	background-color: rgba(225,250,250,0.25);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -335,16 +337,16 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
     font-size: 40px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 500;
+    font-weight: 900;
     text-align: right;
     line-height: 26.4px;
 	line-height: 80px;
 	margin-bottom: 16px;
-	color: #f9d77e;
+	color: #0acbee;
 }
 .intro h1 span{
 	color: #E44424;
@@ -448,7 +450,7 @@ SOCIAL ICON
     border-radius: 0;
     margin: 0;
     text-transform: uppercase;
-    font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
 }
 
 
@@ -558,10 +560,11 @@ SOCIAL ICON
 }
 
 .my-signature{
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 .my-signature img{
-    width: inherit;
+    width: 43%;
+    height: auto;
 }
 
 
@@ -594,7 +597,7 @@ SOCIAL ICON
 
 .myphoto{
     position: relative;
-    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+    background: url(../../assets/images/erinuc1.jpg) bottom center no-repeat;
     background-size: contain;
 }
 
@@ -772,16 +775,19 @@ Resume Timeline
     position: relative;
     text-align: center;
     background-color: #fff;
+    font-family: 'Offside', cursive;
+    font-weight: 900;
     left: 20px;
 }
 
 
 .timeline>li .posted-date .month {
     font-size: 18px;
+    font-family: 'Offside', cursive;
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #67BCDB;
+    color: #0434B1;
     top: 0;
     float: left;
 }
@@ -958,7 +964,7 @@ Resume Timeline
 
 /* === Skill Section === */
 .skills-section {
-    font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
     background-color: #1a1e23;
     color: #fff;   
 }
@@ -967,16 +973,16 @@ Resume Timeline
     margin-bottom: 110px;  
 }
 .skills-section .section-title h2{
-    font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
     color: #fff;
 }
 .skill-title {
-    font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
     width: 25%;
     float: left;
 }
 .skill-title h3{
-    font-family: 'Arvo', serif;
+    font-family: 'Offside', cursive;
     font-size: 18px;
     font-weight: 400;
     margin-top: -6px;
@@ -1107,7 +1113,7 @@ Resume Timeline
     text-align: center;
 }
 #filter li a {
-    color: #E44424;
+    color: #282828;;
     display: block;
     text-transform: uppercase;
     padding: 0 15px;
@@ -1117,7 +1123,7 @@ Resume Timeline
 #filter li a.active,
 #filter li a:hover {
     position: relative;
-    background: #E44424;
+    background: #99FFCC;
     color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
@@ -1130,7 +1136,7 @@ Resume Timeline
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 10px solid rgba(104, 195, 163, 1);
+    border-top: 10px solid rgba(104, 195, 163, .75);
     bottom: -9px;
     left: 50%;
     margin-left: -8px;
@@ -1138,7 +1144,7 @@ Resume Timeline
 
 .tt-overlay {
     position: absolute;
-    background-color: rgba(26, 30, 31, 0.85);
+    background-color: rgba(240, 246, 153, 0.50);
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -1153,6 +1159,8 @@ Resume Timeline
     -moz-transition: all 400ms;
     -o-transition: all 400ms;
     transition: all 400ms;
+    max-height:400px;
+    margin:0 auto;
 }
 
 
@@ -1174,8 +1182,8 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #E44424;
-    font-size: 16px;
+    color: #99FFCC;
+    font-size: 40px;
     margin: 0 13px;
     z-index: 100;
 }
@@ -1450,36 +1458,45 @@ Icon for all respective meta
 
 /* === Contact Section === */
 .contact-section  {
-  
+    background: url(../../assets/images/contact_me_background1.jpg) no-repeat bottom center;
+    color: #fff;
+    font-family: 'Offside', cursive;
+    font-weight: bold;
 }
 
 .contact-section strong {
     display: block;
     text-transform: uppercase;
+    color: #fff;
 }
 .contact-form strong {
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .contact-form textarea.form-control {
     height: 115px;
+    color: #fff;
 }
 
 .contact-form .btn {
     margin-top: 15px;
+    font-color: #fff;
 }
 
 .contact-section div > i{
     float: left;
     font-size: 45px;
     margin-right: 20px;
+    color: #fff;
 }
 .contact-section address,
 .contact-section .contact-number {
     overflow: hidden;
     line-height: 30px;
     font-weight: 400;
-    margin-bottom: 45px
+    margin-bottom: 45px;
+    color: #fff;
 }
 
 
@@ -1498,13 +1515,14 @@ Icon for all respective meta
 
 /* === Footer Wrapper === */
 .footer-wrapper {
-    background: #1a1e23;
-    padding: 36px 0;
-    color: #fff;
-  
+    font-family: 'Offside', cursive;
+    background: #fff;
+    padding: 16px 0;
+    color: #0434B1;
 }
 .copyright p {
     margin: 0;
+    font-family: 'Offside', cursive;
 }
 
 
@@ -1792,47 +1810,138 @@ Icon for all respective meta
 }
 /* === ROCKET ANIMATION === */
 
-      /* initial state */
+      /* initial state 
       #outerspace {
+
         position: relative;
         height: 400px;
         background: #0c0440 url(../images/outerspace.jpg);
         color: #fff;
       }
+
       div.rocket {
+
         position: absolute;
-        bottom: 10px;
-        left: 20px;
-        -webkit-transition: 3s ease-in;
-        -moz-transition: 3s ease-in;
-        -o-transition: 3s ease-in;
-        transition: 3s ease-in;
+        bottom: 300px;
+        left: 640px;
+        -webkit-transition: 6s ease-in;
+        -moz-transition: 6s ease-in;
+        -o-transition: 6s ease-in;
+        transition: 6s ease-in;
       }
+
       div.rocket div {
+
         width: 92px;
         height: 215px;
         background: url(../images/rocket.gif) no-repeat;
-        -webkit-transition: 1s ease-in-out;
-        -moz-transition: 1s ease-in-out;
-        -o-transition: 1s ease-in-out;
-        transition: 1s ease-in-out;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
       }
 
-      /* hover final state */
+      /* hover final state 
+
       #outerspace:hover div.rocket {
-        -webkit-transform: translate(540px,-200px);
-        -moz-transform: translate(540px,-200px);
-        -o-transform: translate(540px,-200px);
-        -ms-transform: translate(540px,-200px);
-        transform: translate(540px,-200px);
+
+        -webkit-transform: translate(-640px,300px);
+        -moz-transform: translate(-640px,300px);
+        -o-transform: translate(-640px,300px);
+        -ms-transform: translate(-640px,300px);
+        transform: translate(-640px,300px);
       }
       #outerspace:hover div.rocket div {
-        -webkit-transform: rotate(70deg);
-        -moz-transform: rotate(70deg);
-        -o-transform: rotate(70deg);
-        -ms-transform: rotate(70deg);
-        transform: rotate(70deg);
+        -webkit-transform: rotate(40deg);
+        -moz-transform: rotate(40deg);
+        -o-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+        transform: rotate(40deg);
       }
+
+      @keyframes outerspace div.rocket {
+        transform: translate(540px,-400px);
+        animation-timing-function:ease-in-out
+      }
+
+      @keyframes outerspace div.rocket div {
+        transform: rotate(220deg);
+        animation-timing-function:ease-in-out
+      }
+
+/* === MOVING SQUARE === */
+      #outerspace {
+        position: relative;
+        background: url(../images/outerspace.jpg);
+        height: 400px;
+      }
+
+      .rocketgirl {
+        width: 150px;
+        height: 215px;
+        background: url(../images/rocketFINAL2.png) no-repeat;
+        position: relative;
+        bottom: 30%;
+        left: 50%;
+        -webkit-animation: rocketfloat 30s infinite; /* Chrome, Safari, Opera */ 
+        animation: rocketgirlfloat 30s 0s infinite;
+        }
+
+        /* Standard syntax */
+        @keyframes rocketgirlfloat {
+            0%   {transform: translate(175px,-80px) rotate(30deg) ;}
+      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-10deg) scale(1.5,1.5);}
+      /*2*/ 35%  {transform: translate(-140px,10px) rotate(30deg) scale(0.75,0.75);}
+      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-40deg);}
+      /*4*/ 55%  {transform: translate(10px,60px) rotate(20deg) scale(1.5,1.5);}
+      /*5*/ 65%  {transform: translate(-100px,-80px) rotate(30deg);}
+            75%  {transform: translate(40px,-10px) rotate(90deg) scale(1.5,1.5);}
+            85%  {transform: translate(-24px,90px) rotate(20deg);}
+            95%  {transform: translate(40px,10px) rotate(30deg);}
+            100% {transform: translate(-44px,-20px) rotate(30deg);}
+        }
+
+        /* Chrome, Safari, Opera */ 
+        @-webkit-keyframes rocketgirlfloat {
+            0%   {transform: translate(240px,-600px);}
+            15%  {transform: translate(-240px,100px);}
+            25%  {transform: translate(140px,-400px);}
+            35%  {transform: translate(-400px,100px);}
+            45%  {transform: translate(-110px,-300px);}
+            55%  {transform: translate(540px,500px);}
+            65%  {transform: translate(-240px,-400px);}
+            75%  {transform: translate(40px,-100px);}
+            85%  {transform: translate(-240px,300px);}
+            95%  {transform: translate(40px,100px);}
+            100% {transform: translate(-440px,-200px);}
+        }
+
+        .rockettext{
+            font-family: 'Offside', cursive;
+            font-size: 16px;
+            font-weight: 400;
+            color:#282828;
+            position: absolute;
+            bottom: 30%;
+            left: 50%;
+            -webkit-animation: rockettextfloat 20s infinite; /* Chrome, Safari, Opera */ 
+            animation: rockettextfloat 20s 0s;
+            }
+
+            /* Chrome, Safari, Opera */ 
+            @-webkit-keyframes rockettextfloat {
+                0%   {transform: translate(-50%,50%);}
+                100% {transform: translate(50%,-50%);}
+            }
+
+            /* Standard syntax */
+            @keyframes rockettextfloat {
+                0%   {transform: translate(-100px,100px);}
+                100% {transform: translate(100px,-100px);}
+            }
+
+
+
 
 /* === ROTATING CUBE === */
 
@@ -1975,3 +2084,38 @@ Icon for all respective meta
       background: rgba(255,255,255,0.8);
       box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
     }
+
+/* === EXTRA PORTFOLIO CSS === */
+
+
+#portfolio .portfolio-item{margin:0 0 15px;right:0}
+
+#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}#portfolio .portfolio-item .portfolio-link .portfolio-hover{background:rgba(194,144,144,.65);position:absolute;width:100%;height:100%;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{opacity:1}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{position:absolute;width:100%;height:20px;font-size:20px;text-align:center;top:50%;margin-top:-12px;color:#fff}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
+    margin-top:-12px}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content 
+    h4{
+        margin:0}
+
+#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}
+
+#portfolio .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}
+
+#portfolio .portfolio-item .portfolio-caption p{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px;margin:0}
+
+#portfolio *{z-index:2}@media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}}
+
+.portfolio-modal .modal-content h2{margin-bottom:15px;font-size:3em}
+.portfolio-modal .modal-content p{margin-bottom:30px}
+.portfolio-modal .modal-content p.item-intro{margin:20px 0 30px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px}
+.portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;margin-top:0}
+.portfolio-modal .modal-content img{margin-bottom:30px}
+.portfolio-modal .close-modal{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}
+.portfolio-modal .close-modal:hover{opacity:.3}
+.portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
+.portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
+.portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#488214}::selection{text-shadow:none;background:#488214}img::selection{background:0 0}img::-moz-selection{background:0 0}body{webkit-tap-highlight-color:#488214}
+
+/* ================== SQUEEZEBOX SECTION ======> */
