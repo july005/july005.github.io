@@ -6,17 +6,17 @@
 	$message = @trim(stripslashes($_POST['message'])); 
 
 	$email_from = $email;
-	$email_to = 'nasirbinburhan@gmail.com'; //replace with your email
+	$email_to = 'erinuc@gmail.com';
 
-	$body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
+	$body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Tell me more: ' . $message;
 
-	$success = @mail($email_to, $body, 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message);
+	$success = @mail($email_to, $body, 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Tell me more: ' . $message);
 	
 ?>
 
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<script>alert("Thank you for contact us. As early as possible  we will contact you.");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=http://trendytheme.net/demo/iamx/v/"> 
+	<script>alert("Thanks for your message! I'll get back to you right away.");</script>
+	<meta HTTP-EQUIV="REFRESH" content="0; url=www.erinuptoncosulich.com"> 
 </head>
