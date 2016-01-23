@@ -1903,17 +1903,16 @@ Icon for all respective meta
 
         /* Chrome, Safari, Opera */ 
         @-webkit-keyframes rocketgirlfloat {
-            0%   {transform: translate(240px,-600px);}
-            15%  {transform: translate(-240px,100px);}
-            25%  {transform: translate(140px,-400px);}
-            35%  {transform: translate(-400px,100px);}
-            45%  {transform: translate(-110px,-300px);}
-            55%  {transform: translate(540px,500px);}
-            65%  {transform: translate(-240px,-400px);}
-            75%  {transform: translate(40px,-100px);}
-            85%  {transform: translate(-240px,300px);}
-            95%  {transform: translate(40px,100px);}
-            100% {transform: translate(-440px,-200px);}
+            0%   {transform: translate(175px,-80px) rotate(30deg) ;}
+      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-10deg) scale(1.5,1.5);}
+      /*2*/ 35%  {transform: translate(-140px,10px) rotate(30deg) scale(0.75,0.75);}
+      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-40deg);}
+      /*4*/ 55%  {transform: translate(10px,60px) rotate(20deg) scale(1.5,1.5);}
+      /*5*/ 65%  {transform: translate(-100px,-80px) rotate(30deg);}
+            75%  {transform: translate(40px,-10px) rotate(90deg) scale(1.5,1.5);}
+            85%  {transform: translate(-24px,90px) rotate(20deg);}
+            95%  {transform: translate(40px,10px) rotate(30deg);}
+            100% {transform: translate(-44px,-20px) rotate(30deg);}
         }
 
         .rockettext{
@@ -2117,5 +2116,77 @@ Icon for all respective meta
 .portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
 .portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
 .portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#488214}::selection{text-shadow:none;background:#488214}img::selection{background:0 0}img::-moz-selection{background:0 0}body{webkit-tap-highlight-color:#488214}
+.portfolio-modal {
+    .modal-content {
+        border-radius: 0;
+        background-clip: border-box;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        min-height: 100%;
+        padding: 100px 0;
+        text-align: center;
+        h2 {
+            margin-bottom: 15px;
+            font-size: 3em;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        p.item-intro {
+            margin: 20px 0 30px;
+            .serif-font;
+            font-style: italic;
+            font-size: 16px;
+        }
+        ul.list-inline {
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+        img {
+            margin-bottom: 30px;
+        }
+    }
+    .close-modal {
+        position: absolute;
+        width:75px;
+        height:75px;
+        background-color:transparent;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.3;
+        }
+        .lr {
+            height:75px;
+            width:1px;
+            margin-left:35px;
+            background-color:@gray-darkest;
+            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            /* IE 9 */
+            -webkit-transform: rotate(45deg);
+            /* Safari and Chrome */
+            z-index:1051;
+            .rl {
+                height:75px;
+                width:1px;
+                background-color:@gray-darkest;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Safari and Chrome */
+                z-index:1052;
+            }            
+        }        
+    }
+    .modal-backdrop {
+        opacity: 0;
+        display: none;
+    }
+}
+
 
 /* ================== SQUEEZEBOX SECTION ======> */
