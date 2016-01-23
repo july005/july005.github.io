@@ -1468,6 +1468,7 @@ Icon for all respective meta
     display: block;
     text-transform: uppercase;
     color: #fff;
+    font-size: 2em;
 }
 .contact-form strong {
     margin-bottom: 40px;
