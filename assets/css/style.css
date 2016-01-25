@@ -133,6 +133,11 @@ p {
     font-family: 'Arvo', serif;
 }
 
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /* === FORM STYLE === */
 .form-control {
@@ -183,6 +188,17 @@ p {
     color: #fff;
     background-color: #4eb28f;
     border-color: #4eb28f;
+}
+
+.btn-primary.raised {
+    box-shadow: 0 3px 0 0 #4eb28f;
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #4eb28f;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
 }
 
 /*btn-info*/
