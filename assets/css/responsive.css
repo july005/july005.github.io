@@ -10,6 +10,15 @@
 		margin-bottom: 60px;
 	}
 
+	.intro h2 {
+		font-size: 16px;
+		line-height: 16px;
+		float: left;
+		position: relative;
+		margin-bottom: 60px;
+	}
+
+
 	.intro p {
 		font-size: 17px;
 		line-height: 20px;

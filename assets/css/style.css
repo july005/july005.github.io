@@ -218,6 +218,24 @@ p {
     border-color: #7FFFD4;
 }
 
+/*btn-warning*/
+.btn-warning{
+    background-color:#333333;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-warning:hover, 
+.btn-warning:focus, 
+.btn-warning.focus, 
+.btn-warning:active, 
+.btn-warning.active, 
+.open>.dropdown-toggle.btn-info {
+    font-color: #fff;
+    background-color: #333333;
+    background-color: rgba(26, 30, 35, 0.90);
+    border-color: #333333;
+}
+
 /*btn-default*/
 .btn-default {
     background: transparent;
@@ -233,7 +251,6 @@ p {
     background-color: #fff;
     border-color: #fff;
 }
-
 
 button:focus {
     outline: none;
@@ -1899,17 +1916,17 @@ Icon for all respective meta
         position: relative;
         bottom: 30%;
         left: 50%;
-        -webkit-animation: rocketfloat 30s infinite; /* Chrome, Safari, Opera */ 
-        animation: rocketgirlfloat 30s 0s infinite;
+        -webkit-animation: rocketfloat 25s infinite; /* Chrome, Safari, Opera */ 
+        animation: rocketgirlfloat 25s 0s infinite;
         }
 
         /* Standard syntax */
         @keyframes rocketgirlfloat {
             0%   {transform: translate(175px,-80px) rotate(30deg) ;}
-      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-10deg) scale(1.5,1.5);}
-      /*2*/ 35%  {transform: translate(-140px,10px) rotate(30deg) scale(0.75,0.75);}
-      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-40deg);}
-      /*4*/ 55%  {transform: translate(10px,60px) rotate(20deg) scale(1.5,1.5);}
+      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-30deg) scale(1.5,1.5);}
+      /*2*/ 35%  {transform: translate(-140px,10px) rotate(40deg) scale(0.75,0.75);}
+      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-30deg);}
+      /*4*/ 55%  {transform: translate(10px,60px) rotate(30deg) scale(1.5,1.5);}
       /*5*/ 65%  {transform: translate(-100px,-80px) rotate(30deg);}
             75%  {transform: translate(40px,-10px) rotate(90deg) scale(1.5,1.5);}
             85%  {transform: translate(-24px,90px) rotate(20deg);}
@@ -1955,10 +1972,36 @@ Icon for all respective meta
                 100% {transform: translate(100px,-100px);}
             }
 
+/* === FADE-IN button === */
+
+/* keyframes tell the start state and the end state of the object */
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:.8; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:.8; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:.8; } }
+ 
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:4s;
+    -moz-animation-duration:4s;
+    animation-duration:4s;
+
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
 
 
 
-/* === ROTATING CUBE === */
+/* === ROTATING CUBE 
 
       @-webkit-keyframes spincube {
         from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
@@ -2066,7 +2109,7 @@ Icon for all respective meta
         transform:rotateX(-90deg) translateZ(60px)}
 
 
-/* === PHOTO CAROUSEL === */
+/* === PHOTO CAROUSEL
 
     @-webkit-keyframes spinner {
       from {
