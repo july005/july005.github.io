@@ -230,7 +230,7 @@ p {
 .btn-warning:active, 
 .btn-warning.active, 
 .open>.dropdown-toggle.btn-info {
-    font-color: #fff;
+    color: #fff;
     background-color: #333333;
     background-color: rgba(26, 30, 35, 0.90);
     border-color: #333333;
