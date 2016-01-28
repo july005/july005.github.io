@@ -1140,6 +1140,7 @@ Resume Timeline
 }
 
 
+
 /* Shuffle Filter*/
 #filter {
     margin: 0 0 35px;
@@ -2146,35 +2147,143 @@ Icon for all respective meta
 /* === EXTRA PORTFOLIO CSS === */
 
 
-#portfolio .portfolio-item{margin:0 0 15px;right:0}
+#portfolio .portfolio-item{
+    margin:0 0 15px;
+    right:0;
+    font-family: 'Offside', cursive;
+}
+#portfolio .portfolio-item .portfolio-link{
+    display:block;
+    position:relative;
+    max-width:400px;
+    margin:0 auto
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    background:rgba(194,144,144,.65);
+    position:absolute;
+    width:100%;
 
-#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}#portfolio .portfolio-item .portfolio-link .portfolio-hover{background:rgba(194,144,144,.65);position:absolute;width:100%;height:100%;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{opacity:1}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{position:absolute;width:100%;height:20px;font-size:20px;text-align:center;top:50%;margin-top:-12px;color:#fff}
+    height:100%;
+    opacity:0;
+    transition:all ease .5s;
+    -webkit-transition:all ease .5s;
+    -moz-transition:all ease .5s
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+    opacity:1
+    }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+    position:absolute;
+    width:100%;
+    height:20px;
+    font-size:20px;
+    text-align:center;
+    top:50%;
+    margin-top:-12px;
+    color:#fff
+}
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
-    margin-top:-12px}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content 
-    h4{
-        margin:0}
+    margin-top:-12px
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{
+        margin:0
+}
 
-#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}
+#portfolio .portfolio-item .portfolio-caption{
+    max-width:400px;
+    margin:0 auto;
+    background-color:#fff;
+    text-align:center;
+    padding:25px
+}
+#portfolio .portfolio-item .portfolio-caption h4{
+    text-transform:none;
+    margin:0
+}
 
-#portfolio .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}
-
-#portfolio .portfolio-item .portfolio-caption p{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px;margin:0}
+#portfolio .portfolio-item .portfolio-caption p{
+    font-family: 'Offside', cursive;
+    font-style:italic;
+    font-size:16px;
+    margin:0
+}
 
 #portfolio *{z-index:2}@media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}}
 
-.portfolio-modal .modal-content h2{margin-bottom:15px;font-size:3em}
-.portfolio-modal .modal-content p{margin-bottom:30px}
-.portfolio-modal .modal-content p.item-intro{margin:20px 0 30px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px}
-.portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;margin-top:0}
-.portfolio-modal .modal-content img{margin-bottom:30px}
-.portfolio-modal .close-modal{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}
-.portfolio-modal .close-modal:hover{opacity:.3}
-.portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
-.portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
-.portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#488214}::selection{text-shadow:none;background:#488214}img::selection{background:0 0}img::-moz-selection{background:0 0}body{webkit-tap-highlight-color:#488214}
+
+.portfolio-modal .modal-content h1{
+    margin-bottom:15px;
+    font-size:3em;
+    font-family: 'Offside', cursive;
+    font-color: #E44424;
+    line-height: 110%;
+}
+.portfolio-modal .modal-content h2{
+    margin-bottom:15px;
+    font-size:2em
+}
+.portfolio-modal .modal-content p{
+    margin-bottom:30px;
+    font-size:1em;
+    font-color: red;
+}
+.portfolio-modal .modal-content p.item-intro{
+    margin:20px 0 30px;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    font-size:16px
+}
+.portfolio-modal .modal-content ul.list-inline{
+    margin-bottom:30px;
+    margin-top:0
+}
+.portfolio-modal .modal-content img{
+    margin-bottom:30px
+}
+.portfolio-modal .close-modal{
+    position:absolute;
+    width:75px;
+    height:75px;
+    background-color:transparent;
+    top:25px;
+    right:25px;
+    cursor:pointer
+}
+.portfolio-modal .close-modal:hover{
+    opacity:.3
+}
+.portfolio-modal .close-modal .lr{
+    height:75px;
+    width:1px;
+    margin-left:35px;
+    background-color:#222;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    z-index:1051
+}
+.portfolio-modal .close-modal .lr .rl{
+    height:75px;
+    width:1px;
+    background-color:#222;
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    z-index:1052
+}
+.portfolio-modal .modal-backdrop{
+    opacity:0;
+    display:none}::-moz-selection{
+        text-shadow:none;
+        background:#488214}::selection{
+            text-shadow:none;
+            background:#488214}img::selection{
+                background:0 0}img::-moz-selection{
+                    background:0 0}body{
+                        webkit-tap-highlight-color:#488214}
+/* ==================
 .portfolio-modal {
     .modal-content {
         border-radius: 0;
@@ -2185,12 +2294,14 @@ Icon for all respective meta
         min-height: 100%;
         padding: 100px 0;
         text-align: center;
-        h2 {
+        h1 {
             margin-bottom: 15px;
             font-size: 3em;
         }
         p {
-            margin-bottom: 30px;
+            margin-bottom:30px;
+            font-size:3em;
+            font-color: red;
         }
         p.item-intro {
             margin: 20px 0 30px;
@@ -2247,5 +2358,60 @@ Icon for all respective meta
     }
 }
 
+/* ====== SLIDESHOW ====== */
 
-/* ================== SQUEEZEBOX SECTION ======> */
+ /* body{
+            text-align: center;
+        }
+*/
+        
+        #slideshow{
+            margin:0 auto;
+            width:600px;
+            height:450px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #slideshow ul{
+            list-style: none;
+            margin:0;
+            padding:0;
+            position: absolute;
+        }
+
+        #slideshow li{
+            float:left;
+        }
+
+        #slideshow a:hover{
+            background: rgba(0,0,0,0.8);
+            border-color: #000;
+        }
+
+        #slideshow a:active{
+            background: #990;
+        }
+
+        .slideshow-prev, .slideshow-next{
+            position: absolute;
+            top:180px;
+            font-size: 30px;
+            text-decoration: none;
+            color:#fff;
+            background: rgba(0,0,0,0.5);
+            padding: 5px;
+            z-index:2;
+        }
+        
+        .slideshow-prev{
+            left:0px;
+            border-left: 3px solid #fff;
+        }
+
+        .slideshow-next{
+            right:0px;
+            border-right: 3px solid #fff;
+        }
+
+
