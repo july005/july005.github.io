@@ -1202,7 +1202,7 @@ Resume Timeline
     width: 90px;
     height: 40px;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     margin-top: -20px;
     margin-left: -45px;
@@ -1216,30 +1216,15 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #99FFCC;
+    color: black;
     font-size: 40px;
     margin: 0 13px;
     z-index: 100;
 }
 .links a:hover i {
-   color:  #fff;
+   color: #7ce0f9;
 }
-.links a i::after{
-    position: absolute;
-    content: "";
-    left: -7px;
-    top: -7px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #E44424;
-    z-index: -1;
-    border-radius: 3px;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-}
+
 .links a:hover i::after {
     background-color: #E44424;
 }
@@ -1248,7 +1233,7 @@ Resume Timeline
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #E44424;
+    background-color: #d86c70;
     color: #fff;
     height: 45px;
     width: 100%;
