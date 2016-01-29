@@ -117,8 +117,12 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
-    font-family: 'Offside', cursive;
+    font-size: 17px;
+    font-family: 'Arvo', serif;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 h5 {
