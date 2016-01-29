@@ -1120,13 +1120,15 @@ Resume Timeline
 
 /* === Work Section === */
 .works-section {
-    background-color: #f7f7f7;
+    background-image: url(../images/works/background_works3.jpg);
+    background-size: 100%;
     padding-bottom: 700px;
 }
 .portfolio-item {
     padding-right: 5px;
     padding-left: 5px;
     min-height: 235px;
+    font-family: 'Offside', cursive;
 }
 .portfolio-bg{
    background: #fff;
@@ -1134,10 +1136,12 @@ Resume Timeline
    margin-bottom: 20px;
    border: 1px solid #eee;
    border-bottom: 3px double #eee;
+   font-family: 'Offside', cursive;
 }
 .portfolio {
     position: relative;
     overflow: hidden;
+    font-family: 'Offside', cursive;
 }
 
 
@@ -1240,6 +1244,7 @@ Resume Timeline
     height: 45px;
     width: 100%;
     text-align: center;
+    font-family: 'Offside', cursive;
 }
 
 .portfolio:hover .tt-overlay, 
@@ -1910,30 +1915,30 @@ Icon for all respective meta
 
         /* Standard syntax */
         @keyframes rocketgirlfloat {
-            0%   {transform: translate(175px,-80px) rotate(30deg) ;}
-      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-30deg) scale(1.5,1.5);}
-      /*2*/ 35%  {transform: translate(-140px,10px) rotate(40deg) scale(0.75,0.75);}
-      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-30deg);}
-      /*4*/ 55%  {transform: translate(10px,60px) rotate(30deg) scale(1.5,1.5);}
-      /*5*/ 65%  {transform: translate(-100px,-80px) rotate(30deg);}
-            75%  {transform: translate(40px,-10px) rotate(90deg) scale(1.5,1.5);}
+            0%   {transform: translate(90px,-10px) rotate(30deg) ;}
+      /*1*/ 15%  {transform: translate(-104px,350px) rotate(-30deg) scale(1.2,1.2);}
+      /*2*/ 35%  {transform: translate(20px,180px) rotate(40deg) scale(0.4,0.4);}
+      /*3*/ 45%  {transform: translate(-11px,100px) rotate(-30deg);}
+      /*4*/ 55%  {transform: translate(10px,70px) rotate(30deg) scale(1.2,1.2);}
+      /*5*/ 65%  {transform: translate(-100px,80px) rotate(30deg) scale(.6,.6);}
+            75%  {transform: translate(40px,100px) rotate(90deg) scale(1.2,1.2);}
             85%  {transform: translate(-24px,90px) rotate(20deg);}
-            95%  {transform: translate(40px,10px) rotate(30deg);}
-            100% {transform: translate(-44px,-20px) rotate(30deg);}
+            95%  {transform: translate(-25px,120px) rotate(30deg) scale(.4,.4;}
+            100% {transform: translate(-44px,100px) rotate(30deg);}
         }
 
         /* Chrome, Safari, Opera */ 
         @-webkit-keyframes rocketgirlfloat {
-            0%   {transform: translate(175px,-80px) rotate(30deg) ;}
-      /*1*/ 15%  {transform: translate(-254px,310px) rotate(-10deg) scale(1.5,1.5);}
-      /*2*/ 35%  {transform: translate(-140px,10px) rotate(30deg) scale(0.75,0.75);}
-      /*3*/ 45%  {transform: translate(-11px,-110px) rotate(-40deg);}
-      /*4*/ 55%  {transform: translate(10px,60px) rotate(20deg) scale(1.5,1.5);}
-      /*5*/ 65%  {transform: translate(-100px,-80px) rotate(30deg);}
-            75%  {transform: translate(40px,-10px) rotate(90deg) scale(1.5,1.5);}
+            0%   {transform: translate(90px,-10px) rotate(30deg) ;}
+      /*1*/ 15%  {transform: translate(-104px,350px) rotate(-30deg) scale(1.2,1.2);}
+      /*2*/ 35%  {transform: translate(20px,180px) rotate(40deg) scale(0.4,0.4);}
+      /*3*/ 45%  {transform: translate(-11px,100px) rotate(-30deg);}
+      /*4*/ 55%  {transform: translate(10px,70px) rotate(30deg) scale(1.2,1.2);}
+      /*5*/ 65%  {transform: translate(-100px,80px) rotate(30deg) scale(.6,.6);}
+            75%  {transform: translate(40px,100px) rotate(90deg) scale(1.2,1.2);}
             85%  {transform: translate(-24px,90px) rotate(20deg);}
-            95%  {transform: translate(40px,10px) rotate(30deg);}
-            100% {transform: translate(-44px,-20px) rotate(30deg);}
+            95%  {transform: translate(-25px,120px) rotate(30deg) scale(.4,.4;}
+            100% {transform: translate(-44px,100px) rotate(30deg);}
         }
 
         .rockettext{
@@ -2208,21 +2213,24 @@ Icon for all respective meta
     line-height: 110%;
 }
 .portfolio-modal .modal-content h2{
+    font-family: 'Offside', cursive;
     margin-bottom:15px;
     font-size:2em
 }
 .portfolio-modal .modal-content p{
+    font-family: 'Offside', cursive;
     margin-bottom:30px;
     font-size:1em;
     font-color: red;
 }
 .portfolio-modal .modal-content p.item-intro{
     margin:20px 0 30px;
-    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Offside', cursive;
     font-style:italic;
     font-size:16px
 }
 .portfolio-modal .modal-content ul.list-inline{
+    font-family: 'Offside', cursive;
     margin-bottom:30px;
     margin-top:0
 }

@@ -1,0 +1,108 @@
+@media (max-width : 400px) {
+	.works-section {
+    background-color: blue;
+    padding-bottom: 2300px;
+}
+}
+@media only screen and (min-width : 401px) and (max-width : 445px) {
+	.works-section {
+    background-color: pink;
+    padding-bottom: 2550px;
+	}
+}
+
+@media (min-width : 445px) and (max-width : 500px) {
+	.works-section {
+	  background-color: yellow;
+    padding-bottom: 2700px;
+  }
+}
+
+@media (min-width : 501px) and (max-width : 520px) {
+	.works-section {
+	  background-color: #ffa500;
+    padding-bottom: 2950px;
+  }
+}
+
+@media (min-width : 521px) and (max-width : 595px) {
+	.works-section {
+	  background-color: red;
+    padding-bottom: 3200px;
+  }
+}
+
+@media (min-width : 596px) and (max-width : 640px) {
+	.works-section {
+    padding-bottom: 3460px;
+  }
+}
+
+@media screen and (min-width:641px) and (max-width:720px) {
+	.works-section {
+    padding-bottom: 3700px;
+  }
+}
+
+@media screen and (min-width:721px) and (max-width:750px) {
+	.works-section {
+    padding-bottom: 4200px;
+  }
+}
+
+@media screen and (min-width:751px) and (max-width:768px) {
+	.works-section {
+    padding-bottom: 4350px;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:800px) {
+	.works-section {
+    padding-bottom: 1250px;
+  }
+}
+
+@media screen and (min-width:801px) and (max-width:900px) {
+	.works-section {
+    padding-bottom: 1250px;
+  }
+}
+
+@media screen and (min-width:901px) and (max-width:991px) {
+	.works-section {
+    padding-bottom: 1450px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1120px) {
+	.works-section {
+    padding-bottom: 1550px;
+  }
+}
+
+@media screen and (min-width:1121px) and (max-width:1197px) {
+	.works-section {
+    padding-bottom: 1750px;
+  }
+}
+
+@media screen and (min-width:1198px) and (max-width:1800px) {
+	.works-section {
+    padding-bottom: 610px;
+  }
+}
+
+@media screen and (min-width:1801px) and (max-width:2400px) {
+	.works-section {
+    padding-bottom: 820px;
+  }
+}
+
+@media screen and (min-width:2401px) and (max-width:2800px) {
+	.works-section {
+    padding-bottom: 920px;
+  }
+}
+
+
+
