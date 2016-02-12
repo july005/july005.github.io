@@ -1910,14 +1910,14 @@ Icon for all respective meta
         position: relative;
         bottom: 15%;
         left: 50%;
-        -webkit-animation: rocketfloat 25s; /* Chrome, Safari, Opera */ 
-        animation: rocketgirlfloat 25s;
+        -webkit-animation: rocketfloat 25s forwards; /* Chrome, Safari, Opera */ 
+        animation: rocketgirlfloat 25s forwards;
         -webkit-animation-delay: .1s;
         }
 
         /* Standard syntax */
         @keyframes rocketgirlfloat {
-            0%   {transform: translate(20px,150px) rotate(30deg);}
+            0%   {transform: translate(20px,250px) rotate(30deg);}
       /*1*/ 15%  {transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {transform: translate(-11px,250px) rotate(-30deg);}
@@ -1926,12 +1926,12 @@ Icon for all respective meta
       /*6*/ 75%  {transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {transform: translate(-24px,290px) rotate(20deg);}
       /*8*/ 95%  {transform: translate(25px,270px) rotate(30deg) scale(.4,.4);}
-      /*9*/ 100% {transform: translate(20px,150px) rotate(30deg);}
+      /*9*/ 100% {transform: translate(20px,270px) rotate(30deg);}
         }
 
         /* Chrome, Safari, Opera */ 
         @-webkit-keyframes rocketgirlfloat {
-            0%   {-webkit-transform: translate(20px,150px) rotate(30deg);}
+            0%   {-webkit-transform: translate(20px,250px) rotate(30deg);}
       /*1*/ 15%  {-webkit-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-webkit-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-webkit-transform: translate(-11px,250px) rotate(-30deg);}
@@ -1939,11 +1939,11 @@ Icon for all respective meta
       /*5*/ 65%  {-webkit-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
       /*6*/ 75%  {-webkit-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {-webkit-transform: translate(-24px,290px) rotate(20deg);}
-      /*9*/ 100% {-webkit-transform: translate(20px,150px) rotate(30deg);}
+      /*9*/ 100% {-webkit-transform: translate(20px,270px) rotate(30deg);}
         }
 
         @-moz-keyframes rocketgirlfloat {
-            0%   {-moz-transform: translate(20px,150px) rotate(30deg);}
+            0%   {-moz-transform: translate(20px,250px) rotate(30deg);}
       /*1*/ 15%  {-moz-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-moz-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-moz-transform: translate(-11px,250px) rotate(-30deg);}
@@ -1951,10 +1951,10 @@ Icon for all respective meta
       /*5*/ 65%  {-moz-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
       /*6*/ 75%  {-moz-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {-moz-transform: translate(-24px,290px) rotate(20deg);}
-      /*9*/ 100% {-moz-transform: translate(20px,150px) rotate(30deg);}
+      /*9*/ 100% {-moz-transform: translate(20px,270px) rotate(30deg);}
         }
         @-ms-keyframes rocketgirlfloat {
-            0%   {-ms-transform: translate(20px,150px) rotate(30deg);}
+            0%   {-ms-transform: translate(20px,250px) rotate(30deg);}
       /*1*/ 15%  {-ms-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-ms-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-ms-transform: translate(-11px,250px) rotate(-30deg);}
@@ -1962,10 +1962,10 @@ Icon for all respective meta
       /*5*/ 65%  {-ms-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
       /*6*/ 75%  {-ms-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {-ms-transform: translate(-24px,290px) rotate(20deg);}
-      /*9*/ 100% {-ms-transform: translate(20px,150px) rotate(30deg);}
+      /*9*/ 100% {-ms-transform: translate(20px, 270px) rotate(30deg);}
         }
         @-o-keyframes rocketgirlfloat {
-            0%   {-o-transform: translate(20px,150px) rotate(30deg);}
+            0%   {-o-transform: translate(20px,250px) rotate(30deg);}
       /*1*/ 15%  {-o-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-o-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-o-transform: translate(-11px,250px) rotate(-30deg);}
@@ -1973,7 +1973,7 @@ Icon for all respective meta
       /*5*/ 65%  {-o-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
       /*6*/ 75%  {-o-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {-o-transform: translate(-24px,290px) rotate(20deg);}
-      /*9*/ 100% {-o-transform: translate(20px,150px) rotate(30deg);}
+      /*9*/ 100% {-o-transform: translate(20px,270px) rotate(30deg);}
         }
 
 
