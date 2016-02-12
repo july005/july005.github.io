@@ -59,7 +59,6 @@
     left: 50%;
     -webkit-animation: rocketfloat 20s forwards; /* Chrome, Safari, Opera */ 
     animation: rocketgirlfloat 20s forwards;
-    -webkit-animation-delay: .1s;
   }
         /* Standard syntax */
         @keyframes rocketgirlfloat {
