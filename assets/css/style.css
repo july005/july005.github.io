@@ -1910,7 +1910,7 @@ Icon for all respective meta
         position: relative;
         bottom: 22%;
         left: 50%;
-        -webkit-animation: rocketfloat 25s 2s infinite; /* Chrome, Safari, Opera */ 
+        -webkit-animation: rocketfloat 25s .1s infinite; /* Chrome, Safari, Opera */ 
         animation: rocketgirlfloat 25s 0s infinite;
         }
 
