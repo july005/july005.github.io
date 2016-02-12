@@ -1908,10 +1908,11 @@ Icon for all respective meta
         height: 215px;
         background: url(../images/rocketFINAL2.png) no-repeat;
         position: relative;
-        bottom: 10%;
+        bottom: 15%;
         left: 50%;
-        -webkit-animation: rocketfloat .1s; /* Chrome, Safari, Opera */ 
-        animation: rocketgirlfloat 25s 0s infinite;
+        -webkit-animation: rocketfloat 25s; /* Chrome, Safari, Opera */ 
+        animation: rocketgirlfloat 25s;
+        -webkit-animation-delay: .1s;
         }
 
         /* Standard syntax */
@@ -1920,8 +1921,8 @@ Icon for all respective meta
       /*1*/ 15%  {transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {transform: translate(-11px,250px) rotate(-30deg);}
-      /*4*/ 55%  {transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
-      /*5*/ 65%  {transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
+      /*4*/ 55%  {transform: translate(10px,297px) rotate(30deg) scale(.8,.8);}
+      /*5*/ 65%  {transform: translate(-100px,200px) rotate(30deg) scale(.6,.6);}
       /*6*/ 75%  {transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
       /*7*/ 85%  {transform: translate(-24px,290px) rotate(20deg);}
       /*8*/ 95%  {transform: translate(25px,270px) rotate(30deg) scale(.4,.4);}
