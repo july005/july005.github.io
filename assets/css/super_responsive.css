@@ -48,15 +48,15 @@
   #outerspace {
     position: relative;
     background: url(../images/outerspace2.jpg);
-    height: 400px;
+    height: 300px;
   }
 
   .rocketgirl {
-    width: 90px;
+    width: 70px;
     height: auto;
     background: url(../images/rocketFINAL2.png) no-repeat;
     position: relative;
-    bottom: 45%;
+    bottom: 15%;
     left: 50%;
     -webkit-animation: rocketfloat 20s forwards; /* Chrome, Safari, Opera */ 
      animation: rocketgirlfloat 20s forwards;
