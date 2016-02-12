@@ -1312,7 +1312,7 @@ mark,
   text-align: justify;
 }
 .text-nowrap {
-  white-space: nowrap;
+  white-space: normal;
 }
 .text-lowercase {
   text-transform: lowercase;
@@ -2973,7 +2973,7 @@ select[multiple].form-group-lg .form-control {
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
   vertical-align: middle;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -2986,6 +2986,25 @@ select[multiple].form-group-lg .form-control {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+    background-color: pink;
+  }
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,

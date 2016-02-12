@@ -1,5 +1,6 @@
 /* Extra small devices (phones, less than 768px) */
 /* 1 */
+  
 @media (max-width : 766px) {
 
 	.intro h1 {
@@ -18,6 +19,12 @@
 		margin-bottom: 60px;
 	}
 
+	.intro h5 {
+		font-size: 19px;
+		line-height: 19px;
+		float: left;
+		position: relative;
+	}
 
 	.intro p {
 		font-size: 17px;
@@ -186,6 +193,13 @@
 		position: relative;
 		margin-bottom: 60px;
 
+	}
+
+	.intro h5 {
+		font-size: 23px;
+		line-height: 23px;
+		float: left;
+		position: relative;
 	}
 
 	.intro p {
@@ -537,4 +551,26 @@
 	.personal-info{
 		padding-right:180px;
 	}
+}
+
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
 }
