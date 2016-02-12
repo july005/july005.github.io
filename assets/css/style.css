@@ -1908,9 +1908,9 @@ Icon for all respective meta
         height: 215px;
         background: url(../images/rocketFINAL2.png) no-repeat;
         position: relative;
-        bottom: 22%;
+        bottom: 10%;
         left: 50%;
-        -webkit-animation: rocketfloat 25s .1s; /* Chrome, Safari, Opera */ 
+        -webkit-animation: rocketfloat .1s; /* Chrome, Safari, Opera */ 
         animation: rocketgirlfloat 25s 0s infinite;
         }
 
