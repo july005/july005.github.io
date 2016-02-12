@@ -1940,6 +1940,40 @@ Icon for all respective meta
       /*7*/ 85%  {-webkit-transform: translate(-24px,290px) rotate(20deg);}
       /*9*/ 100% {-webkit-transform: translate(20px,150px) rotate(30deg);}
         }
+        @-moz-keyframes rocketgirlfloat {
+            0%   {-moz-transform: translate(20px,150px) rotate(30deg);}
+      /*1*/ 15%  {-moz-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*2*/ 35%  {-moz-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
+      /*3*/ 45%  {-moz-transform: translate(-11px,250px) rotate(-30deg);}
+      /*4*/ 55%  {-moz-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
+      /*5*/ 65%  {-moz-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
+      /*6*/ 75%  {-moz-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
+      /*7*/ 85%  {-moz-transform: translate(-24px,290px) rotate(20deg);}
+      /*9*/ 100% {-moz-transform: translate(20px,150px) rotate(30deg);}
+        }
+        @-ms-keyframes rocketgirlfloat {
+            0%   {-ms-transform: translate(20px,150px) rotate(30deg);}
+      /*1*/ 15%  {-ms-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*2*/ 35%  {-ms-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
+      /*3*/ 45%  {-ms-transform: translate(-11px,250px) rotate(-30deg);}
+      /*4*/ 55%  {-ms-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
+      /*5*/ 65%  {-ms-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
+      /*6*/ 75%  {-ms-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
+      /*7*/ 85%  {-ms-transform: translate(-24px,290px) rotate(20deg);}
+      /*9*/ 100% {-ms-transform: translate(20px,150px) rotate(30deg);}
+        }
+        @-o-keyframes rocketgirlfloat {
+            0%   {-o-transform: translate(20px,150px) rotate(30deg);}
+      /*1*/ 15%  {-o-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*2*/ 35%  {-o-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
+      /*3*/ 45%  {-o-transform: translate(-11px,250px) rotate(-30deg);}
+      /*4*/ 55%  {-o-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
+      /*5*/ 65%  {-o-transform: translate(-100px,280px) rotate(30deg) scale(.6,.6);}
+      /*6*/ 75%  {-o-transform: translate(40px,250px) rotate(90deg) scale(1.2,1.2);}
+      /*7*/ 85%  {-o-transform: translate(-24px,290px) rotate(20deg);}
+      /*9*/ 100% {-o-transform: translate(20px,150px) rotate(30deg);}
+        }
+
 
         .rockettext{
             font-family: 'Offside', cursive;
