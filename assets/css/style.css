@@ -1917,8 +1917,8 @@ Icon for all respective meta
 
         /* Standard syntax */
         @keyframes rocketgirlfloat {
-            0%   {transform: translate(20px,250px) rotate(30deg);}
-      /*1*/ 15%  {transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+            0%   {transform: translate(0px,250px) rotate(30deg);}
+      /*1*/ 15%  {transform: translate(-74px,290px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {transform: translate(-11px,250px) rotate(-30deg);}
       /*4*/ 55%  {transform: translate(10px,297px) rotate(30deg) scale(.8,.8);}
@@ -1932,7 +1932,7 @@ Icon for all respective meta
         /* Chrome, Safari, Opera */ 
         @-webkit-keyframes rocketgirlfloat {
             0%   {-webkit-transform: translate(20px,250px) rotate(30deg);}
-      /*1*/ 15%  {-webkit-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*1*/ 15%  {-webkit-transform: translate(-74px,290px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-webkit-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-webkit-transform: translate(-11px,250px) rotate(-30deg);}
       /*4*/ 55%  {-webkit-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
@@ -1944,7 +1944,7 @@ Icon for all respective meta
 
         @-moz-keyframes rocketgirlfloat {
             0%   {-moz-transform: translate(20px,250px) rotate(30deg);}
-      /*1*/ 15%  {-moz-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*1*/ 15%  {-moz-transform: translate(-74px,290px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-moz-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-moz-transform: translate(-11px,250px) rotate(-30deg);}
       /*4*/ 55%  {-moz-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
@@ -1955,7 +1955,7 @@ Icon for all respective meta
         }
         @-ms-keyframes rocketgirlfloat {
             0%   {-ms-transform: translate(20px,250px) rotate(30deg);}
-      /*1*/ 15%  {-ms-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*1*/ 15%  {-ms-transform: translate(-74px,290px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-ms-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-ms-transform: translate(-11px,250px) rotate(-30deg);}
       /*4*/ 55%  {-ms-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
@@ -1966,7 +1966,7 @@ Icon for all respective meta
         }
         @-o-keyframes rocketgirlfloat {
             0%   {-o-transform: translate(20px,250px) rotate(30deg);}
-      /*1*/ 15%  {-o-transform: translate(-74px,315px) rotate(-30deg) scale(1.2,1.2);}
+      /*1*/ 15%  {-o-transform: translate(-74px,290px) rotate(-30deg) scale(1.2,1.2);}
       /*2*/ 35%  {-o-transform: translate(20px,280px) rotate(40deg) scale(0.4,0.4);}
       /*3*/ 45%  {-o-transform: translate(-11px,250px) rotate(-30deg);}
       /*4*/ 55%  {-o-transform: translate(10px,297px) rotate(30deg) scale(1.2,1.2);}
