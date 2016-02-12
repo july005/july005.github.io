@@ -44,7 +44,7 @@
   }
 }
 
-@media screen (max-height: 580px) {
+@media screen (max-height: 350px) {
   #outerspace {
     position: relative;
     background: url(../images/outerspace2.jpg);
