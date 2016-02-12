@@ -55,11 +55,11 @@
     width: 70px;
     height: auto;
     background: url(../images/rocketFINAL2.png) no-repeat;
-    bottom: 15%;
+    bottom: 45%;
     left: 50%;
     -webkit-animation: rocketfloat 20s forwards; /* Chrome, Safari, Opera */ 
-     animation: rocketgirlfloat 20s forwards;
-     -webkit-animation-delay: .1s;
+    animation: rocketgirlfloat 20s forwards;
+    -webkit-animation-delay: .1s;
   }
         /* Standard syntax */
         @keyframes rocketgirlfloat {
