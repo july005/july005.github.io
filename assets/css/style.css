@@ -343,11 +343,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/outerspace.jpg) no-repeat center center;
-	-webkit-background-attachment: fixed;
-    background-attachment: fixed;
-	background-color: #222;
-	background-size: cover;
+	background: url(../images/outerspace2.jpg);
 	padding: 0;
 	position: relative;
 }
@@ -415,7 +411,7 @@ ul.list-check li::before {
 SOCIAL ICON 
 -------------------------------------------*/
 .social-icons {
-    margin-bottom: 17%;
+    margin-bottom: 27%;
     text-align: center;
 
 }
@@ -1903,7 +1899,7 @@ Icon for all respective meta
 /* === MOVING SQUARE === */
       #outerspace {
         position: relative;
-        background: url(../images/outerspace.jpg);
+        background: url(../images/outerspace2.jpg);
         height: 400px;
       }
 
