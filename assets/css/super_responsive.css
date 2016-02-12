@@ -55,14 +55,37 @@
     width: 70px;
     height: auto;
     background: url(../images/rocketFINAL2.png) no-repeat;
-    position: relative;
     bottom: 15%;
     left: 50%;
     -webkit-animation: rocketfloat 20s forwards; /* Chrome, Safari, Opera */ 
      animation: rocketgirlfloat 20s forwards;
      -webkit-animation-delay: .1s;
   }
+        /* Standard syntax */
+        @keyframes rocketgirlfloat {
+            0%   {transform: translate(20px,20px) rotate(30deg);}
+            100% {transform: translate(20px,20px) rotate(30deg);}
+        }
 
+        /* Chrome, Safari, Opera */ 
+        @-webkit-keyframes rocketgirlfloat {
+            0%   {-webkit-transform: translate(20px,20px) rotate(30deg);}
+      /*9*/ 100% {-webkit-transform: translate(20px,20px) rotate(30deg);}
+        }
+
+        @-moz-keyframes rocketgirlfloat {
+            0%   {-moz-transform: translate(20px,20px) rotate(30deg);}
+      /*9*/ 100% {-moz-transform: translate(20px,20px) rotate(30deg);}
+        }
+        @-ms-keyframes rocketgirlfloat {
+            0%   {-ms-transform: translate(20px,20px) rotate(30deg);}
+      /*9*/ 100% {-ms-transform: translate(20px,20px) rotate(30deg);}
+        }
+        @-o-keyframes rocketgirlfloat {
+            0%   {-o-transform: translate(20px,20px) rotate(30deg);}
+      /*9*/ 100% {-o-transform: translate(20px,20px) rotate(30deg);}
+        }
+    }
 
 @media screen and (min-width:721px) and (max-width:750px) {
 	.works-section {
