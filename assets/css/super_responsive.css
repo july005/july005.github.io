@@ -44,6 +44,26 @@
   }
 }
 
+@media screen and (max-width: 995px) , screen and (max-height: 600px) {
+  #outerspace {
+    position: relative;
+    background: url(../images/outerspace2.jpg);
+    height: 400px;
+  }
+
+  .rocketgirl {
+    width: 90px;
+    height: auto;
+    background: url(../images/rocketFINAL2.png) no-repeat;
+    position: relative;
+    bottom: 45%;
+    left: 50%;
+    -webkit-animation: rocketfloat 20s forwards; /* Chrome, Safari, Opera */ 
+     animation: rocketgirlfloat 20s forwards;
+     -webkit-animation-delay: .1s;
+  }
+
+
 @media screen and (min-width:721px) and (max-width:750px) {
 	.works-section {
     padding-bottom: 4200px;
