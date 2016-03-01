@@ -68,13 +68,14 @@
 		to: 0,                 // the number the element should end at
 		speed: 1000,           // how long it should take to count between the target numbers
 		refreshInterval: 100,  // how often the element should be updated
-		decimals: 0,           // the number of decimal places to show
+		decimals: 2,           // the number of decimal places to show
 		formatter: formatter,  // handler for formatting the value before rendering
 		onUpdate: null,        // callback method for every time the element is updated
 		onComplete: null       // callback method for when the element finishes updating
 	};
 
 	function formatter(value, settings) {
-		return value.toFixed(settings.decimals);
+		return value.toFixed(2);
+
 	}
 }(jQuery));

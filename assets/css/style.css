@@ -279,11 +279,17 @@ hr {
 /* LIST STYLE
 -------------------------------------------------- */
 ul, ol {
-    margin     : 0;
+    margin: 0;
     padding    : 0;
-    list-style : none
+    list-style : none;
+    position: relative;
+    font-size: 16px;
 }
 
+ul li {
+    margin-top:      :50px;
+    margin-bottom:   :50px;
+}
 
 ul.list-check {
     
@@ -291,8 +297,8 @@ ul.list-check {
 
 ul.list-check li{
     position: relative;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 30px;
 }
 ul.list-check li::before {
     content: "\f00c";
@@ -301,6 +307,22 @@ ul.list-check li::before {
     margin-right: 10px;
 }
 
+ul.list-bolt {
+    
+}
+
+ul.list-bolt li{
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-right: 5px;
+}
+ul.list-bolt li::before {
+    content: "\f135";
+    font-family: fontawesome;
+    color: #0434B1;
+    margin-right: 10px;
+}
 
 /* === MAIN === */
 .section-padding {
